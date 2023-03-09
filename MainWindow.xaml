@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lr8_2_text"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="775">
+        Title="MainWindow" Height="527" Width="775">
     <Canvas>
 
         <!-- Левый -->
@@ -59,7 +59,7 @@
                 </EventTrigger>
             </StackPanel.Triggers>
         </StackPanel>
-        
+
 
         <!-- Второй-->
         <StackPanel Canvas.Left="300" Canvas.Top="300" x:Name="sp_l2">
@@ -111,7 +111,7 @@
                 </EventTrigger>
             </StackPanel.Triggers>
         </StackPanel>
-        
+
         <!--Центр -->
         <StackPanel Canvas.Left="300" Canvas.Top="300" x:Name="sp_c">
             <StackPanel Orientation="Horizontal">
@@ -159,7 +159,7 @@
                 </EventTrigger>
             </StackPanel.Triggers>
         </StackPanel>
-        
+
         <!-- Четвертый-->
         <StackPanel Canvas.Left="300" Canvas.Top="300" x:Name="sp_r2">
             <StackPanel Orientation="Horizontal">
@@ -261,6 +261,7 @@
                 </EventTrigger>
             </StackPanel.Triggers>
         </StackPanel>
-        
+
+        <Button Height="29" Width="150" Canvas.Left="300" Canvas.Bottom="10" >Переход</Button>
     </Canvas>
 </Window>
