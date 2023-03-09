@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="NewWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Width="150" Height="29" Click="Button_Click">Назад</Button>
     </Grid>
 </Window>

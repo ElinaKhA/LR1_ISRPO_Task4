@@ -23,5 +23,12 @@ namespace Lr8_2_text
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow back = new MainWindow();
+            back.Show();
+            this.Close();
+        }
     }
 }

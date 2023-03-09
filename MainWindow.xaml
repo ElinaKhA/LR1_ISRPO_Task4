@@ -262,6 +262,6 @@
             </StackPanel.Triggers>
         </StackPanel>
 
-        <Button Height="29" Width="150" Canvas.Left="300" Canvas.Bottom="10" >Переход</Button>
+        <Button Height="29" Width="150" Canvas.Left="300" Canvas.Bottom="10" Click="Button_Click" >Переход</Button>
     </Canvas>
 </Window>
